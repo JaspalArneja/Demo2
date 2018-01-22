@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+  body{
+        margin: 0;
+        
+    }
+    .heading
+    {
+        background-color:   #6dd3d2;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        height: auto;
+        width: available;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .reg{
+    	 margin-top:20px;
+    }
+    .errordiv{
+    	 color : red;
+    	 display: none;
+    }
+    .table{
+    background-color:  white;}
+    .btn{
+    width: 100px;}

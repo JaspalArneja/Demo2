@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>
+<package name="default" extends="json-default">
+
+
+
+<action name="register" method="registerUser" class="com.jaspal.controller.UserRegisterAction">
+<result name="success" type="json"></result>
+</action>
+
+
+<action name="show"  class="com.jaspal.controller.ShowDataAction">
+<result name="success" type="json"></result>
+</action>
+
+<action name="update"  class="com.jaspal.controller.UpdateUserDetailsAction">
+<result name="success" type="json"></result>
+</action>
+
+<action name="delete"  class="com.jaspal.controller.DeleteUserAction">
+<result name="success" type="json"></result>
+</action>
+
+</package>
+</struts>    
